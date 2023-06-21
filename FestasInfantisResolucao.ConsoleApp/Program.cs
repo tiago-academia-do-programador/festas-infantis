@@ -1,7 +1,7 @@
-﻿using FestasInfantis.Dominio.ModuloCliente;
+﻿using FestasInfantisResolucao.Dominio.ModuloCliente;
 using Microsoft.Data.SqlClient;
 
-namespace FestasInfantis.ConsoleApp
+namespace FestasInfantisResolucao.ConsoleApp
 {
     internal class Program
     {
