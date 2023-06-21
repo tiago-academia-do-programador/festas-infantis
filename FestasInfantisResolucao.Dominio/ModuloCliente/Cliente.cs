@@ -7,6 +7,13 @@ namespace FestasInfantisResolucao.Dominio.ModuloCliente
         public string nome;
         public string telefone;
 
+        public Cliente(int id, string nome, string telefone)
+        {
+            this.id = id;
+            this.nome = nome;
+            this.telefone = telefone;
+        }
+
         public Cliente(string nome, string telefone)
         {
             this.nome = nome;

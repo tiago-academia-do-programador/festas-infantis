@@ -9,11 +9,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domínio", "2 - Domíni
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infraestrutura", "3 - Infraestrutura", "{19B463CC-F77F-45B5-BE10-45A132DEF079}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FestasInfantisResolucao.WinApp", "FestasInfantisResolucao.WinApp\FestasInfantisResolucao.WinApp.csproj", "{81F05CE0-EC78-4412-A967-E9F297DF792C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FestasInfantisResolucao.WinApp", "FestasInfantisResolucao.WinApp\FestasInfantisResolucao.WinApp.csproj", "{81F05CE0-EC78-4412-A967-E9F297DF792C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FestasInfantisResolucao.Dominio", "FestasInfantisResolucao.Dominio\FestasInfantisResolucao.Dominio.csproj", "{FCBBFE4E-F652-4E8D-8577-3B8E6EED74FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FestasInfantisResolucao.Dominio", "FestasInfantisResolucao.Dominio\FestasInfantisResolucao.Dominio.csproj", "{FCBBFE4E-F652-4E8D-8577-3B8E6EED74FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FestasInfantisResolucao.Infra.Dados.Memoria", "FestasInfantisResolucao.Infra.Dados.Memoria\FestasInfantisResolucao.Infra.Dados.Memoria.csproj", "{1E85DD13-A9A6-4004-9B29-D40FE8ECEDF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FestasInfantisResolucao.Infra.Dados.Memoria", "FestasInfantisResolucao.Infra.Dados.Memoria\FestasInfantisResolucao.Infra.Dados.Memoria.csproj", "{1E85DD13-A9A6-4004-9B29-D40FE8ECEDF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FestasInfantisResolucao.ConsoleApp", "FestasInfantisResolucao.ConsoleApp\FestasInfantisResolucao.ConsoleApp.csproj", "{A15D40D4-064B-453D-8317-70DFAB9416A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1E85DD13-A9A6-4004-9B29-D40FE8ECEDF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E85DD13-A9A6-4004-9B29-D40FE8ECEDF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E85DD13-A9A6-4004-9B29-D40FE8ECEDF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A15D40D4-064B-453D-8317-70DFAB9416A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A15D40D4-064B-453D-8317-70DFAB9416A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A15D40D4-064B-453D-8317-70DFAB9416A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A15D40D4-064B-453D-8317-70DFAB9416A0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 		{81F05CE0-EC78-4412-A967-E9F297DF792C} = {D723D9F7-1468-41A1-92CF-1F0C591F1061}
 		{FCBBFE4E-F652-4E8D-8577-3B8E6EED74FD} = {12A3894F-D209-4AE4-9C91-F2B832264A76}
 		{1E85DD13-A9A6-4004-9B29-D40FE8ECEDF8} = {19B463CC-F77F-45B5-BE10-45A132DEF079}
+		{A15D40D4-064B-453D-8317-70DFAB9416A0} = {D723D9F7-1468-41A1-92CF-1F0C591F1061}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC586629-29DE-4C2C-A44D-A8A0176E41A0}
